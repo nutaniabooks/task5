@@ -1,8 +1,48 @@
 * {
-    background-color: blueviolet;
-    text-align: center;
+    margin-left: 25px;
+    background-color: rgb(203, 167, 238);
+    text-align: left;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 h1 {
     text-transform: full-width;
+}
+ul li {
+    text-align: left;
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li.checked {
+    Color: #555;
+    text-decoration: line-through;
+}
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+ul li span:hover {
+    background: rgb(200, 164, 235);
+    padding: 1px 2px 3px 4px;
+}
+#taskInput {
+    display: left;
+    float: left;
+    justify-content: left;
+}
+.theButtonInput {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
 }

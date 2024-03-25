@@ -7,7 +7,19 @@
     <title>One task at a time!</title>
 </head>
 <body>
+
+<div class = "container">
     <h1>One task at a time!</h1>
-    <h2>Input your task then checkmark when you have completed your task(s)</h2>
+
+    <form id = "myList">
+        <input type="text" id="taskInput" class="user-input" placeholder="Enter tasks here" required>
+        <button onclick="addTask()" id="submitButton" class="theButtonInput">Click Here</button>
+  
+    <h2>Hover and click over task to mark complete <br> when you have completed your tasks click on the X button to the right.</h2>
+    
+    <ul id="list-container"></ul>
+</div>
+    </form>
+    <script src="app.js"></script>   
 </body>
 </html>
